@@ -1,5 +1,5 @@
 const teleBot = require("node-telegram-bot-api");
-const token = "7173486340:AAGn6PFazinA-zzZyHcY5gDzotPAHBTRIeU";
+const token = "process.env.TOKEN";
 const options = {
     polling: true
 };
